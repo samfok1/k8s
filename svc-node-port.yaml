@@ -13,7 +13,7 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: wordpress
+    name: wordpress
   type: NodePort
 status:
   loadBalancer: {}
